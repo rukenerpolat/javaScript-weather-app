@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App | rukenerpolat</title>
+
+    <!-- CUSTOM CSS Link-->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="card">
+      <!-- search bar start -->
+      <div class="search">
+        <input type="text" placeholder="enter city name" spellcheck="false" />
+        <button><img src="images/search.png" alt="search-button" /></button>
+      </div>
+      <!-- search bar end -->
+
+      <!-- error message start-->
+      <div class="error">
+        <p>Invalid City Name</p>
+      </div>
+      <!-- error message end-->
+
+      <!-- weather side start -->
+      <div class="weather">
+        <img src="/images/rain.png" class="weather-icon" />
+        <h1 class="temperature">22</h1>
+        <h2 class="city">New York</h2>
+        <div class="details">
+          <div class="col">
+            <img src="/images/humidity.png" />
+            <div>
+              <p class="humidity">50%</p>
+              <p>humidity</p>
+            </div>
+          </div>
+          <div class="col">
+            <img src="/images/wind.png" />
+            <div>
+              <p class="wind">15 km/h</p>
+              <p>Wind Speed</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- weather side end -->
+    </div>
+
+    <!-- CUSTOM JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>
