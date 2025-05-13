@@ -26,16 +26,15 @@ A simple and responsive weather application built using **HTML**, **CSS**, and *
 ## ⚙️ Installation
 
 To run the project locally:
-
-```
-# Clone the repository
-git clone https://github.com/rukenerpolat/javaScript-weather-app.git
-
-# Navigate to the project folder
-cd javaScript-weather-app
-
-# Open index.html in your browser
-```
+1. Clone the repository
+   ```
+   git clone https://github.com/rukenerpolat/javaScript-weather-app.git
+   ```
+2. Navigate to the project folder
+   ```
+   cd javaScript-weather-app
+   ```
+3. Open ```index.html``` in your browser
 ## 🔑 API Key
 1. This app uses the OpenWeatherMap API. You will need your own API key:
 
